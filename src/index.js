@@ -11,7 +11,7 @@ const graphQLPlayground = function graphQLPlayground (options) {
     }
     const { request, response } = ctx
     const playground = renderPlaygroundPage(middlewareOptions)
-    response.type('text/html').send(graphiqlString)
+    response.type('text/html').send(playground)
   }
   return graphqlPlaygroundHandler
 }
