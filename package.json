@@ -1,6 +1,6 @@
 {
   "name": "graphql-playground-middleware-adonis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to enable AdonisJS to launch graphql-playground",
   "main": "src/index.js",
   "playgroundVersion": "1.6.7",
@@ -10,25 +10,32 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
-    "*.js": ["standard --fix", "git add"]
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   },
   "standard": {
-    "globals": ["use"]
+    "globals": [
+      "use"
+    ]
   },
   "repository": {
     "type": "git",
-    "url":
-      "git+https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis.git"
+    "url": "git+https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis.git"
   },
-  "keywords": ["graphql", "graphiql", "playground", "adonisjs"],
+  "keywords": [
+    "graphql",
+    "graphiql",
+    "playground",
+    "adonisjs"
+  ],
   "author": "Pieter Venter <pieter@ebit.co.za",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis/issues"
+    "url": "https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis/issues"
   },
-  "homepage":
-    "https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis#readme",
+  "homepage": "https://github.com/E-VisionSoftware/graphql-playground-middleware-adonis#readme",
   "dependencies": {
     "graphql-playground-html": "^1.5.6",
     "lint-staged": "^7.1.2",
